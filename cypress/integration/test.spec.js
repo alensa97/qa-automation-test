@@ -72,9 +72,6 @@ describe("automation practice smoke tests", ()=>{
             proceedtoCheckoutButton.should('be.visible');
             homePage.selectProceedtoCheckoutButton().click();
 
-            // const headingCounter = shoppcart.selectHeadingCounter();
-            // headingCounter.should('be.visible');
-
             const headingCounter = shoppcart.selectHeadingCounter();
             headingCounter.should('be.visible');
             headingCounter.should(($item) => {
